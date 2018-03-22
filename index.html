@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <div class="name">Ricardo Aranda</div>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="Myjobs.html">My Jobs</a>
+            <a href="Aboutme.html">About Me</a>
+        </div>
+    </header>
+    <div class="list">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="Myjobs.html">My Jobs</a>
+            </li>
+            <li>
+                <a href="Aboutme.html">About Me</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+<form method="POST" action="http://fvi-grad.com:4004/email">
+    <!-- <label for="dest-email">Send to</label> -->
+<input type="text" name="dest-email" placeholder="Send to">
+<input type="text" name="full-name" placeholder="Full name">
+<input type="text" name="phone-number" placeholder="Phone number">
+<input type="text" name="ddate" placeholder="Date">
+<input type="text" name="time" placeholder="Time">
+<input type="text" name="email" placeholder="Myemail@gmail.com">
+<input type="text" name="subject" placeholder="Subject">
+<textarea name="message" id="" cols="30" rows="10">
+    Enter message here
+</textarea>
+<input type="submit" value="Submit">
+</form>
+
+    </div>
+    <footer>My name is Ricardo Aranda</footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
